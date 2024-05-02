@@ -1,7 +1,7 @@
 <script setup>
     import { ref } from 'vue'
 
-    const showActivePage = ref('')
+    const showActivePage = ref('home')
     const showThemeMode = ref('light')
 
     let toggleTheme = () => {
