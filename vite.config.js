@@ -13,5 +13,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
     },
-    base: "/material-design-only-bootstrap-5/"
+    base: "/kuffintea-material-design-only-bootstrap-5"
 })
