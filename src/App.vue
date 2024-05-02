@@ -260,7 +260,7 @@
                         </div>
                         <div class="col-12 p-5">
                             <div class="row g-0 mt-5">
-                                <div class="col-6 pe-5">
+                                <div class="col-lg-6 col-12 pe-5 mb-lg-0 mb-4">
                                     <div class="d-flex flex-column">
                                         <svg class="mb-4" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 8H8C7.45 8 7.005 8.45 7.005 9L7 15C7 15.55 7.45 16 8 16H16C16.55 16 17 15.55 17 15V9C17 8.45 16.55 8 16 8ZM8.00001 9.99997L12 12.5L16 9.99997V15H8.00001V9.99997ZM8.00001 9.00001L12 11.5L16 9.00001H8.00001Z" fill="currentcolor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20Z" fill="currentcolor" /></svg>
                                         <span>
@@ -268,7 +268,7 @@
                                         </span>
                                     </div>
                                 </div>
-                                <div class="col-2">
+                                <div class="col-lg-2 col-4">
                                     <ul class="nav flex-column">
                                         <li class="nav-item px-3 py-2">
                                             <span>Social</span>
@@ -295,7 +295,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="col-2">
+                                <div class="col-lg-2 col-4">
                                     <ul class="nav flex-column">
                                         <li class="nav-item px-3 py-2">
                                             <span>Libraries</span>
@@ -322,7 +322,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="col-2">
+                                <div class="col-lg-2 col-4">
                                     <ul class="nav flex-column">
                                         <li class="nav-item px-3 py-2">
                                             <span>Archived versions</span>
