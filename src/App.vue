@@ -12,7 +12,7 @@
 <template>
     <main :class="['vh-100', showThemeMode=='light' ? 'bg-white' : 'bg-black text-light']">
         <div class="row g-0 h-100">
-            <nav :class="['col-auto navbar d-xl-flex flex-column d-none justify-content-between position-fixed h-100', showThemeMode=='dark' ? 'text-bg-dark' : 'bg-body-tertiary']" width="40px">
+            <nav :class="['col-auto navbar d-lg-flex flex-column d-none justify-content-between position-fixed h-100', showThemeMode=='dark' ? 'text-bg-dark' : 'bg-body-tertiary']" width="40px">
                 <ul class="navbar-nav w-100">
                     <li class="nav-item px-4 py-3">
                         <a :class="['btn rounded-4 py-3 w-100', showThemeMode=='dark' ? 'bg-success text-light' : 'bg-success-subtle']">
@@ -81,7 +81,7 @@
                     <svg v-else xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#f8f9fa" height="30" width="30" version="1.1" id="Capa_1" viewBox="0 0 207.628 207.628" xml:space="preserve"><circle cx="103.814" cy="103.814" r="45.868" /><path d="M103.814,157.183c-29.427,0-53.368-23.941-53.368-53.368s23.941-53.368,53.368-53.368s53.368,23.941,53.368,53.368  S133.241,157.183,103.814,157.183z M103.814,65.446c-21.156,0-38.368,17.212-38.368,38.368s17.212,38.368,38.368,38.368  s38.368-17.212,38.368-38.368S124.97,65.446,103.814,65.446z" /><path d="M103.814,39.385c-4.142,0-7.5-3.358-7.5-7.5V7.5c0-4.142,3.358-7.5,7.5-7.5s7.5,3.358,7.5,7.5v24.385  C111.314,36.027,107.956,39.385,103.814,39.385z" /><path d="M103.814,207.628c-4.142,0-7.5-3.358-7.5-7.5v-24.385c0-4.142,3.358-7.5,7.5-7.5s7.5,3.358,7.5,7.5v24.385  C111.314,204.271,107.956,207.628,103.814,207.628z" /><path d="M200.128,111.314h-24.385c-4.142,0-7.5-3.358-7.5-7.5s3.358-7.5,7.5-7.5h24.385c4.142,0,7.5,3.358,7.5,7.5  S204.271,111.314,200.128,111.314z" /><path d="M31.885,111.314H7.5c-4.142,0-7.5-3.358-7.5-7.5s3.358-7.5,7.5-7.5h24.385c4.142,0,7.5,3.358,7.5,7.5  S36.027,111.314,31.885,111.314z" /><path d="M154.676,60.452c-1.919,0-3.839-0.732-5.303-2.197c-2.929-2.929-2.929-7.678,0-10.606l17.243-17.242  c2.929-2.929,7.678-2.93,10.606,0c2.929,2.929,2.929,7.678,0,10.606l-17.243,17.242C158.515,59.72,156.595,60.452,154.676,60.452z" /><path d="M35.709,179.419c-1.919,0-3.839-0.732-5.303-2.197c-2.929-2.929-2.929-7.678,0-10.606l17.243-17.243  c2.929-2.929,7.678-2.929,10.606,0c2.929,2.929,2.929,7.678,0,10.606l-17.243,17.243C39.548,178.687,37.629,179.419,35.709,179.419z  " /><path d="M171.918,179.419c-1.919,0-3.839-0.732-5.303-2.197l-17.243-17.243c-2.929-2.929-2.929-7.678,0-10.606  c2.929-2.929,7.678-2.929,10.606,0l17.243,17.243c2.929,2.929,2.929,7.678,0,10.606  C175.757,178.687,173.838,179.419,171.918,179.419z" /><path d="M52.952,60.452c-1.919,0-3.839-0.732-5.303-2.197L30.406,41.013c-2.929-2.929-2.929-7.677,0-10.606  c2.929-2.929,7.678-2.93,10.606,0l17.243,17.242c2.929,2.929,2.929,7.677,0,10.606C56.791,59.72,54.872,60.452,52.952,60.452z" /></svg>           
                 </button>
             </nav>
-            <nav :class="['col-12 navbar d-xl-none position-fixed z-2 py-3', showThemeMode=='dark' ? 'bg-black' : 'bg-white']">
+            <nav :class="['col-12 navbar d-lg-none position-fixed z-2 py-3', showThemeMode=='dark' ? 'bg-black' : 'bg-white']">
                 <button :class="['navbar-toggler border-0 position-fixed px-4', {'text-light' : showThemeMode=='dark'}]" type="button">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentcolor" viewBox="0 0 50 50" width="25" height="25"><path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z" /></svg>                
                 </button>
@@ -97,8 +97,8 @@
                     </li>
                 </ul>
             </nav>
-            <div class="col-12 pt-xl-0 ps-xl-5 pt-5 h-100">
-                <div class="ps-xl-5 h-100">
+            <div class="col-12 pt-xl-0 ps-lg-5 pt-5 h-100">
+                <div class="ps-lg-5 h-100">
                     <div class="row d-xxl-flex d-md-none d-sm-flex d-none g-0 ps-xl-2 pt-2 mb-5 h-75">
                         <div class="col-12 p-2 pt-3 h-100">
                             <div class="card border-0 rounded-5 h-100">
@@ -129,7 +129,7 @@
                             </div>
                         </div>
                     </div>
-                    <div :class="['row g-0 ps-xl-2', showThemeMode=='light' ? 'bg-white' : 'bg-black']">
+                    <div :class="['row g-0 ps-lg-2', showThemeMode=='light' ? 'bg-white' : 'bg-black']">
                         <div class="col-12 p-1">
                             <div class="row g-0 my-5">
                                 <h2 class="display-5 ps-4 mb-4"><b>News & launches</b></h2>
