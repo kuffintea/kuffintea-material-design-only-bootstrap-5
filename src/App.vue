@@ -133,7 +133,7 @@
                         <div class="col-12 p-1">
                             <div class="row g-0 my-5">
                                 <h2 class="display-5 ps-4 mb-4"><b>News & launches</b></h2>
-                                <div class="col-xxl-4 col-6 p-1">
+                                <div class="col-xxl-4 col-sm-6 col-12 p-1">
                                     <div :class="['card border-0 rounded-5 h-100', showThemeMode=='dark' ? 'text-bg-dark' : 'text-bg-light']">
                                         <img src="https://lh3.googleusercontent.com/mLGakWFjdX3zGBIhCUWqzjlj3gUXOY8hOed_ISzomlpNmjKWUiqCFyNGGAZFneVaK30v4GUpjn7lyIsI2Z7KPvMKrYkumzBr2nwbVe3BQKRkpam3sA=w960" class="card-img-top rounded-5" alt="...">
                                         <div class="card-body p-4">
@@ -142,7 +142,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-4 col-6 p-1">
+                                <div class="col-xxl-4 col-sm-6 col-12 p-1">
                                     <div :class="['card border-0 rounded-5 h-100', showThemeMode=='dark' ? 'text-bg-dark' : 'text-bg-light']">
                                         <img src="https://lh3.googleusercontent.com/aiJojq_gpPLqLhU0PZH6Dog-OjIMti_hiclF_6oqxucGuvywn_AEtu2Qrk2f4WxEhRWMjXkz8qXpTCGoj5TZ0DUCEZ5UIXnXTSIu_7ndg2dTNmQbdkCO=w960" class="card-img-top rounded-5" alt="...">
                                         <div class="card-body p-4">
@@ -151,7 +151,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-4 col-6 p-1">
+                                <div class="col-xxl-4 col-sm-6 col-12 p-1">
                                     <div :class="['card border-0 rounded-5 h-100', showThemeMode=='dark' ? 'text-bg-dark' : 'text-bg-light']">
                                         <img src="https://lh3.googleusercontent.com/51moDkmVWptBFXRReuACKocS_fsOoYtfT-C78onEUKeRr7ky4l_ZsuZMK2AnE7-MPRbLzcKTAIFmNyyN7ACo0-eygmXaGeR0ItYtRcYNE8-_L8RHqkA=w960" class="card-img-top rounded-5" alt="...">
                                         <div class="card-body p-4">
@@ -165,7 +165,7 @@
                         <div class="col-12 p-1">
                             <div class="row g-0 my-5">
                                 <h1 class="display-5 ps-4 mb-4"><b>Design system updates</b></h1>
-                                <div class="col-xxl-4 col-6 p-1">
+                                <div class="col-xxl-4 col-sm-6 col-12 p-1">
                                     <div :class="['card border-0 rounded-5 h-100', showThemeMode=='dark' ? 'text-bg-dark' : 'text-bg-light']">
                                         <img src="https://lh3.googleusercontent.com/AG8Da4Doz97XcS62XgVOYWiRwcwgZZdhJOeejfA9bhzY8K5cyhsy753fFaNgkZjcTXA7MwQnPOa9FjKaFFoOVDGVh33PutwuflvNCXkfBS7AR5GbeQ=w960" class="card-img-top rounded-5" alt="...">
                                         <div class="card-body p-4">
@@ -174,7 +174,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-4 col-6 p-1">
+                                <div class="col-xxl-4 col-sm-6 col-12 p-1">
                                     <div :class="['card border-0 rounded-5 h-100', showThemeMode=='dark' ? 'text-bg-dark' : 'text-bg-light']">
                                         <img src="https://lh3.googleusercontent.com/IfqcD9hZWV1tohxFc8gyiP9kVjz0Igg1trtKkYD3qxvEziIxbnD2b8mCpmJqC015XWD14Pvwy-0vRUSJltvEa9tcY8TnWpO0zYJaR1IPjJlRrWpo3Q=w960" class="card-img-top rounded-5" alt="...">
                                         <div class="card-body p-4">
@@ -183,7 +183,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-4 col-6 p-1">
+                                <div class="col-xxl-4 col-sm-6 col-12 p-1">
                                     <div :class="['card border-0 rounded-5 h-100', showThemeMode=='dark' ? 'text-bg-dark' : 'text-bg-light']">
                                         <img src="https://lh3.googleusercontent.com/aLTg-FT4Ocgvjw1B_i3fOVK-rWoV3C7XCHyBkKwSbJFzIZtJjo-5atBHcSs9aZdHxiMw8-nP3lCnULJtFG_KdIVg7Gk-NV8sc1DJkeMRsTtir9pIu6IY=w960" class="card-img-top rounded-5" alt="...">
                                         <div class="card-body p-4">
@@ -192,7 +192,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-4 col-6 p-1">
+                                <div class="col-xxl-4 col-sm-6 col-12 p-1">
                                     <div :class="['card border-0 rounded-5 h-100', showThemeMode=='dark' ? 'text-bg-dark' : 'text-bg-light']">
                                         <img src="https://lh3.googleusercontent.com/QTSOFxOaVde6gu-lNjTZ_VrOh7ihpSgRc-hErsBVjQ4Te9tIj4cW4BNWXj2fy1WbDnWYNS3v6pO628xBLC-A74K7ylf0ODNz-jbNhM1OUCgTUvZSN3zP=w960" class="card-img-top rounded-5" alt="...">
                                         <div class="card-body p-4">
@@ -201,7 +201,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-4 col-6 p-1">
+                                <div class="col-xxl-4 col-sm-6 col-12 p-1">
                                     <div :class="['card border-0 rounded-5 h-100', showThemeMode=='dark' ? 'text-bg-dark' : 'text-bg-light']">
                                         <img src="https://lh3.googleusercontent.com/w0mg7Iy0YoeV7ViHTp9XRzZFTbCX-ME87HPfbv_XFFZlQ-D6tjVwxsY1X_HUrFiXf-kNp8LePGcqv2Oh3OiNU6J28BYhiTf8UQKJBRDYPZejkpKE0NQ=w960" class="card-img-top rounded-5" alt="...">
                                         <div class="card-body p-4">
@@ -210,7 +210,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-4 col-6 p-1">
+                                <div class="col-xxl-4 col-sm-6 col-12 p-1">
                                     <div :class="['card border-0 rounded-5 h-100', showThemeMode=='dark' ? 'text-bg-dark' : 'text-bg-light']">
                                         <img src="https://lh3.googleusercontent.com/560ITYkB-YZ3Hc2f0s-i9doX7kqOZ_CNnuzS7XtPolT6zfcKk7PW2TCSlD61OkSAu9eLXn1U404j5Sc4tZNZh-j4IscbCgHURVy1eC7fGtFESdOQMdhm=w960" class="card-img-top rounded-5" alt="...">
                                         <div class="card-body p-4">
