@@ -99,7 +99,7 @@
             </nav>
             <div class="col-12 pt-xl-0 ps-xl-5 pt-5 h-100">
                 <div class="ps-xl-5 h-100">
-                    <div class="row d-xl-flex d-sm-none d-flex g-0 ps-xl-2 pt-2 mb-5 h-75">
+                    <div class="row d-xxl-flex d-md-none d-sm-flex d-none g-0 ps-xl-2 pt-2 mb-5 h-75">
                         <div class="col-12 p-2 pt-3 h-100">
                             <div class="card border-0 rounded-5 h-100">
                                 <img v-if="showThemeMode=='light'" class="card-img rounded-5 h-100" src="https://lh3.googleusercontent.com/2OrUzHCRSI-V46Z1qJBh90usG6OkKwCbXN80FbrjkWoQz4VfoJjNAoQHLHPQRZWH7dI_m5I1gi48h6xMJ5pK6kkdXmUnXPe4VqwvEdo4QeWRjLV9Oew=w2400-rj" alt="Material Design">
@@ -114,7 +114,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row d-xl-none d-sm-flex d-none g-0 ps-xl-2 pt-2 mb-5 h-50">
+                    <div class="row d-xxl-none d-md-flex d-sm-none d-flex g-0 ps-xl-2 pt-2 mb-5 h-50">
                         <div class="col-12 p-2 pt-3 h-100">
                             <div class="card border-0 rounded-5 h-100">
                                 <img v-if="showThemeMode=='light'" class="card-img rounded-5 h-100" src="https://lh3.googleusercontent.com/2OrUzHCRSI-V46Z1qJBh90usG6OkKwCbXN80FbrjkWoQz4VfoJjNAoQHLHPQRZWH7dI_m5I1gi48h6xMJ5pK6kkdXmUnXPe4VqwvEdo4QeWRjLV9Oew=w2400-rj" alt="Material Design">
